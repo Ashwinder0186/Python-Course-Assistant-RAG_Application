@@ -39,7 +39,7 @@ Only answer course questions.'''
     
     client = OpenAI(
         base_url="https://openrouter.ai/api/v1",
-        api_key="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",
+        api_key="Your API Key",
     )
     
     completion = client.chat.completions.create(
